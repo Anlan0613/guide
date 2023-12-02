@@ -33,7 +33,7 @@ http://ipafont.ipa.go.jp/
 /* 基本設定 */
 body {
     text-align: center;
-    background: url('Gray.jpg') top center;
+    background: url('img/Gray.jpeg') top center;
     background-size: 400px;
     line-height: 1.7;
     letter-spacing: 0.1em;
@@ -211,6 +211,24 @@ article p,
 article .menu {
     margin: 1em auto 1.5em;
 }
+
+article p.one {
+    margin-top: 1.7em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  article p.two {
+    margin-top: 3.4em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  article p span.alert {
+    text-decoration: underline;
+  }
 
 /* メニュー */
 article .menu {
